@@ -424,7 +424,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 span {
   color: #ffb03b;
 }
-
+/* .thankyou{
+  font-size: 40px !important;
+} */
 #hero p {
   width: 80%;
   -webkit-animation-delay: 0.4s;
@@ -1102,18 +1104,18 @@ hr.line1{
 /*--------------------------------------------------------------
 # Book A Table
 --------------------------------------------------------------*/
-/* .book-a-table .wanuja {
+/* .book-a-table .form-style {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 30px;
   background: #fff;
 }
 
-.book-a-table .wanuja .form-group {
+.book-a-table .form-style .form-group {
   padding-bottom: 8px;
 }
 
-.book-a-table .wanuja .validate {
+.book-a-table .form-style .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -1121,7 +1123,7 @@ hr.line1{
   font-size: 13px;
 }
 
-.book-a-table .wanuja .error-message {
+.book-a-table .form-style .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1130,11 +1132,11 @@ hr.line1{
   font-weight: 600;
 }
 
-.book-a-table .wanuja .error-message br + br {
+.book-a-table .form-style .error-message br + br {
   margin-top: 25px;
 }
 
-.book-a-table .wanuja .sent-message {
+.book-a-table .form-style .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1143,14 +1145,14 @@ hr.line1{
   font-weight: 600;
 }
 
-.book-a-table .wanuja .loading {
+.book-a-table .form-style .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.book-a-table .wanuja .loading:before {
+.book-a-table .form-style .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1163,21 +1165,21 @@ hr.line1{
   animation: animate-loading 1s linear infinite;
 }
 
-.book-a-table .wanuja input, .book-a-table .wanuja textarea {
+.book-a-table .form-style input, .book-a-table .form-style textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.book-a-table .wanuja input {
+.book-a-table .form-style input {
   height: 44px;
 }
 
-.book-a-table .wanuja textarea {
+.book-a-table .form-style textarea {
   padding: 10px 12px;
 }
 
-.book-a-table .wanuja button[type="submit"] {
+.book-a-table .form-style button[type="submit"] {
   background: #ffb03b;
   border: 0;
   padding: 10px 24px;
@@ -1186,7 +1188,7 @@ hr.line1{
   border-radius: 50px;
 }
 
-.book-a-table .wanuja button[type="submit"]:hover {
+.book-a-table .form-style button[type="submit"]:hover {
   background: #ffa012;
 } */
 
@@ -1471,18 +1473,18 @@ hr.line1{
   color: #fff;
 }
 
-.contact .wanuja {
+.contact .form-style {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 30px;
   background: #fff;
 }
 
-.contact .wanuja .form-group {
+.contact .form-style .form-group {
   padding-bottom: 8px;
 }
 
-/* .contact .wanuja .error-message {
+/* .contact .form-style .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1491,7 +1493,7 @@ hr.line1{
   font-weight: 600;
 } */
 
-/* .contact .wanuja .sent-message {
+/* .contact .form-style .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1500,14 +1502,14 @@ hr.line1{
   font-weight: 600;
 } */
 
-/* .contact .wanuja .loading {
+/* .contact .form-style .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 } */
 
-/* .contact .wanuja .loading:before {
+/* .contact .form-style .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1520,21 +1522,21 @@ hr.line1{
   animation: animate-loading 1s linear infinite;
 } */
 
-.contact .wanuja input, .contact .wanuja textarea {
+.contact .form-style input, .contact .form-style textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .wanuja input {
+.contact .form-style input {
   height: 44px;
 }
 
-.contact .wanuja textarea {
+.contact .form-style textarea {
   padding: 10px 12px;
 }
 
-.contact .wanuja button[type="submit"] {
+.contact .form-style button[type="submit"] {
   background: #ffb03b;
   border: 0;
   padding: 10px 24px;
@@ -1543,7 +1545,7 @@ hr.line1{
   border-radius: 50px;
 }
 
-.contact .wanuja button[type="submit"]:hover {
+.contact .form-style button[type="submit"]:hover {
   background: #ffa012;
 }
 .contact .social-links2{
