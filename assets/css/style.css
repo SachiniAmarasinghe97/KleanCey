@@ -990,6 +990,7 @@ hr.line1{
 
 .specials .details p {
   color: #777777;
+  font-size: 10px;
 }
 
 .specials .details p:last-child {
