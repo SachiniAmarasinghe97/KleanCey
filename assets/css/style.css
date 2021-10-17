@@ -1,8 +1,5 @@
-/**
-* Template Name: Delicious - v4.3.0
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+/*
+Author: kleancey.me
 */
 
 /*--------------------------------------------------------------
@@ -948,6 +945,18 @@ hr.line1{
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
+#more{
+  display: none;
+}
+#more1{
+  display: none;
+}
+#more2{
+  display: none;
+}
+#more3{
+  display: none;
+}
 .specials {
   overflow: hidden;
 }
@@ -990,7 +999,7 @@ hr.line1{
 
 .specials .details p {
   color: #777777;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .specials .details p:last-child {
@@ -1007,7 +1016,38 @@ hr.line1{
     background: #ffb03b;
   }
 }
-
+.specials #myBtn{
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.specials #myBtn1{
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.specials #myBtn2{
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.specials #myBtn3{
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
@@ -1545,6 +1585,7 @@ hr.line1{
   transition: 0.4s;
   border-radius: 50px;
 }
+
 
 .contact .form-style button[type="submit"]:hover {
   background: #ffa012;
